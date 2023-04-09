@@ -1,4 +1,4 @@
-console.log("Supreme Collection");
+console.log("Supreme Collection - Shopping Website");
 
 // SHOP PAGE JS : 
 
