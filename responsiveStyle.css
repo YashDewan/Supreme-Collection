@@ -1,0 +1,115 @@
+/* Media Query */
+
+/* ipad air */
+
+@media screen and (max-width: 830px) {
+    #hero{
+        height: 80vh;
+    }
+
+    #three-banners .banner-box{
+        width: 30%;
+    }
+
+    #newsletter{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #newsletter .form{
+        width: 70%;
+    }
+
+    #newsletter .newstext{
+        padding-bottom: 20px;
+    }
+
+}
+
+/* Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 830px){
+    #three-banners .banner-box h2{
+        font-size: 2.4rem;
+    }
+    
+    #sm-banner .banner-box {
+        height: 30vh;
+        width: 30%;
+    }
+}
+
+/* large mobiles */
+
+@media screen and (max-width: 430px) {
+    h1{
+        font-size: 2.2rem;
+    }
+
+    #header{
+        padding: 7px 20px;
+        text-align: center;
+    }
+
+    #hero h1{
+        color: #fff;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #hero{
+        align-items: center;
+    }
+
+    #features{
+        padding: 0px;
+        margin: 0 7px;
+    }
+
+    #sm-banner .banner-box{
+        height: 30vh;
+
+    }
+
+    .banner-box h1{
+        font-size: 1.5rem;
+    }
+
+    #banner{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    #three-banners .banner-box{
+        display: none;
+    }
+
+    #newsletter .newstext h2{
+        font-size: 1.7rem;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    footer{
+        padding: 40px;
+    }
+
+    .col{
+        padding-bottom: 20px;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 399px) {
+    .features {
+        padding: 5px;
+        margin: 0 6px;
+    }
+}
