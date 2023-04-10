@@ -507,3 +507,46 @@ footer .col-main .col a:hover{
 #first-page-banner p{
     color: #fff;
 }
+
+#filter .filterShop{
+    padding: 10px;
+    color: #000;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: 1px solid #088178;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#filter .filterShop:hover{
+    color: #fff;
+    background-color: #088178;
+}
+
+#pagination{
+    padding: 20px 80px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+#pagination a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #041e42;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 1rem;
+    font-weight: 600;
+}
