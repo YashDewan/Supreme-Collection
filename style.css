@@ -550,3 +550,42 @@ footer .col-main .col a:hover{
     font-size: 1rem;
     font-weight: 600;
 }
+
+
+
+/* SINGLE PRODUCT PAGE */
+#prod-details{
+    display: flex;
+    padding: 40px 80px; 
+}
+
+#prod-details .single-prod-img-details{    
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#prod-details .single-prod-img-details .single-pro-img img{
+    width: 100%;
+    height: auto;
+}
+
+#prod-details .single-prod-img-details .small-img-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#prod-details .single-prod-img-details .small-img-group img{
+    width: 6vw;
+    height: auto;
+    border: 1px solid black;
+}
+
+#prod-details .single-prod-img-details .small-img-group img:hover{
+    border: 2px solid #4abbb3;
+}
+
+#prod-details .single-prod-desc{
+
+}

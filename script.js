@@ -12,7 +12,8 @@ const arrdict = [
         h5: "Leapord print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "l1",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     },
     {
         imgsrc: "img/p2.jpg",
@@ -21,7 +22,8 @@ const arrdict = [
         h5: "Red Check print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "c1",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     },
     {
         imgsrc: "img/p (1).jpg",
@@ -30,7 +32,8 @@ const arrdict = [
         h5: "Leapord print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "l2",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     },
     {
         imgsrc: "img/p (2).jpg",
@@ -39,7 +42,8 @@ const arrdict = [
         h5: "Black Check print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "c2",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     },
     {
         imgsrc: "img/p (3).jpg",
@@ -48,7 +52,8 @@ const arrdict = [
         h5: "Flower print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "f1",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     },
     {
         imgsrc: "img/p (4).jpg",
@@ -57,7 +62,8 @@ const arrdict = [
         h5: "Check print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "c3",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     },
     {
         imgsrc: "img/p (5).jpg",
@@ -66,7 +72,8 @@ const arrdict = [
         h5: "Leopord print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "l3",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     },
     {
         imgsrc: "img/p (6).jpg",
@@ -75,7 +82,8 @@ const arrdict = [
         h5: "Leopord print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "l4",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     },
     {
         imgsrc: "img/p (7).jpg",
@@ -84,7 +92,8 @@ const arrdict = [
         h5: "Leopord print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "l5",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     },
     {
         imgsrc: "img/p (8).jpg",
@@ -93,7 +102,8 @@ const arrdict = [
         h5: "Leopord print Night Trouser",
         h4: "Rs 290/-",
         itemCode: "l6",
-        prod: "womenLower"
+        prod: "womenLower",
+        morePhotos: 1
     }
     
 ]
