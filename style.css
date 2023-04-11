@@ -19,7 +19,6 @@ h2{
 
 p{
     font-size: 1.2rem;
-    color: #465b52;
 }
 
 body{
@@ -557,6 +556,7 @@ footer .col-main .col a:hover{
 
 
 /* SINGLE PRODUCT PAGE */
+
 #prod-details{
     display: flex;
     padding: 40px 80px; 
@@ -565,8 +565,6 @@ footer .col-main .col a:hover{
 #prod-details .single-prod-img-details{    
     display: flex;
     justify-content: space-between;
-    min-width: 40%;
-    max-width: 40%;
 }
 
 #prod-details .single-prod-img-details .single-pro-img img{
@@ -578,7 +576,6 @@ footer .col-main .col a:hover{
 #prod-details .single-prod-img-details .small-img-group{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     margin-right: 10px;
 }
 
@@ -587,17 +584,13 @@ footer .col-main .col a:hover{
 }
 
 #prod-details .single-prod-img-details .small-img-group img{
-    width: 6vw;
+    width: 7vw;
     height: auto;
     border-radius: 5px;
 }
 
 #prod-details .single-prod-img-details .small-img-group img:hover{
     box-shadow: 10px 10px 54px rgba(70, 62, 221 , 0.1);
-}
-
-#prod-details .single-prod-desc{
-    padding-left: 20px;
 }
 
 #prod-details .single-prod-desc h1{

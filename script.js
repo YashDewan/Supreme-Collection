@@ -33,6 +33,14 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (21).jpg",
+        span: "Kids's Wear",
+        h5: "Pink Kids Cloth Set",
+        h4: "Rs 210/-",
+        prod: "kidswear",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (10).jpg",
         span: "T-Shirt",
         h5: "Peach Cotton TShirt",
@@ -89,6 +97,14 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (20).jpg",
+        span: "Mens's Lower",
+        h5: "Black Men's Lower",
+        h4: "Rs 290/-",
+        prod: "menlower",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (5).jpg",
         span: "Women's Lower",
         h5: "Leopord print Night Trouser",
@@ -121,6 +137,14 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (19).jpg",
+        span: "Mens's Lower",
+        h5: "Grey Men's Lower",
+        h4: "Rs 290/-",
+        prod: "menlower",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (15).jpg",
         span: "T-Shirt",
         h5: "Mustard  Cotton Tshirt",
@@ -142,6 +166,38 @@ const arrdict = [
         h5: "Grey Cotton TShirt",
         h4: "Rs 160/-",
         prod: "tshirt",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (24).jpg",
+        span: "Kids's Wear",
+        h5: "Yellow Kids Cloth Set",
+        h4: "Rs 210/-",
+        prod: "kidswear",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (27).jpg",
+        span: "Kids's Wear",
+        h5: "Blue Kids Cloth Set",
+        h4: "Rs 210/-",
+        prod: "kidswear",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (30).jpg",
+        span: "Mens's Lower",
+        h5: "Brown Men's Lower",
+        h4: "Rs 290/-",
+        prod: "menlower",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (31).jpg",
+        span: "Mens's Lower",
+        h5: "Green Men's Lower",
+        h4: "Rs 290/-",
+        prod: "menlower",
         morePhotos: 1
     },
 
