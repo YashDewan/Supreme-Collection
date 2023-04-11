@@ -17,16 +17,21 @@
 </head>
 <body>
     <section id="header">
-        <a href="#" class="logoFont">SC</a>
-        <div class="nav">
+        <a href="index.html" class="logoFont">SC</a>
+        <div class="nav" id="nav">
             <ul id="navbar">
+                <li class="crossNav" id="crossnav">X</li>
                 <li><a style="color: #088178;" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li><a class="navelem" href="shop.html">Shop</a></li>
+                <li><a class="navelem" href="blog.html">Blog</a></li>
+                <li><a class="navelem" href="about.html">About</a></li>
+                <li><a class="navelem" href="contact.html">Contact</a></li>
+                <li><a class="navelem" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
             </ul>
+        </div>
+        <div id="mobile">
+            <li><a class="navelem" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            <li><a href="#"><i class="fas fa-outdent"></i></a></li>
         </div>
     </section>
     
@@ -34,7 +39,7 @@
         <h1>Supreme</h1>
         <h1>Collection</h1>
         <p>Deals in Hoisery Items</p>
-        <button></button>
+        <button onclick="window.location.href = 'shop.html' "></button>
     </section>
 
     <section id="features">

@@ -17,16 +17,21 @@
 </head>
 <body>
     <section id="header">
-        <a href="#" class="logoFont">SC</a>
-        <div class="nav">
+        <a href="index.html" class="logoFont">SC</a>
+        <div class="nav" id="nav">
             <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a style="color: #088178;" href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li class="crossNav" id="crossnav">X</li>
+                <li><a style="color: #088178;" href="index.html">Home</a></li>
+                <li><a class="navelem" href="shop.html">Shop</a></li>
+                <li><a class="navelem" href="blog.html">Blog</a></li>
+                <li><a class="navelem" href="about.html">About</a></li>
+                <li><a class="navelem" href="contact.html">Contact</a></li>
+                <li><a class="navelem" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
             </ul>
+        </div>
+        <div id="mobile">
+            <li><a class="navelem" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            <li><a href="#"><i class="fas fa-outdent"></i></a></li>
         </div>
     </section>
     
@@ -36,13 +41,13 @@
     </section>
 
     <section id="filter">
-        <select class="filterShop">
-            <option value="All">All</option>
-            <option value="T-shirts">T-shirts</option>
-            <option value="Women's Lowers">Women's Lowers</option>
-            <option value="Men's Lowers">Men's Lowers</option>
-            <option value="Men's Shorts">Men's Shorts</option>
-            <option value="Women's Capri">Women's Capri</option>
+        <select class="filterSelect" id="filterShopid">
+            <option value="all">All</option>
+            <option value="tshirt">T-shirts</option>
+            <option value="womenlower">Women's Lowers</option>
+            <option value="menlower">Men's Lowers</option>
+            <option value="menshort">Men's Shorts</option>
+            <option value="womencapri">Women's Capri</option>
           </select>
     </section>
 

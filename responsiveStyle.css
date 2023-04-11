@@ -23,7 +23,7 @@
     #newsletter .newstext{
         padding-bottom: 20px;
     }
-
+    
 }
 
 /* Tablets */
@@ -55,10 +55,6 @@
         color: #fff;
     }
 
-    #navbar{
-        display: none;
-    }
-
     #hero{
         align-items: center;
     }
@@ -66,6 +62,10 @@
     #features{
         padding: 0px;
         margin: 0 7px;
+    }
+
+    .product1 .pro-container{
+        justify-content: center;
     }
 
     #sm-banner .banner-box{
@@ -105,11 +105,73 @@
     .copyright{
         text-align: center;
     }
+
+    /* navbar */
+
+    .nav{
+        display: none;
+        position: fixed;
+        background-color: aliceblue;
+        z-index: 9;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100vh;
+    }
+
+    #navbar{
+        flex-direction: column;
+        padding-top: 100px;
+
+    }
+    
+    #navbar li{
+        padding: 18px 0;
+    }
+
+    #mobile{
+        display: flex;
+    }
+
+    #mobile li{
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    #mobile li a{
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    #mobile li i{
+        font-size: 1.25rem;
+        color: #1a1a1a;
+        font-weight: 600;
+    }
+
+    #navbar .crossNav{
+        position: absolute;
+        top: 32px;
+        right: 32px;
+    }
 }
 
 @media screen and (min-width: 200px) and (max-width: 399px) {
     .features {
         padding: 5px;
         margin: 0 6px;
+    }
+
+}
+
+/* to show mobile sidebar */
+
+@media (min-width: 430px){
+    #mobile{
+        display: none;
+    }
+    #navbar .crossNav{
+        display: none;
     }
 }

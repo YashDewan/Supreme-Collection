@@ -15,18 +15,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsiveStyle.css">
 </head>
-<body>
+<body style="background-color: whitesmoke">
     <section id="header">
-        <a href="#" class="logoFont">SC</a>
-        <div class="nav">
+        <a href="index.html" class="logoFont">SC</a>
+        <div class="nav" id="nav">
             <ul id="navbar">
+                <li class="crossNav" id="crossnav">X</li>
                 <li><a href="index.html">Home</a></li>
-                <li><a style="color: #088178;" href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li><a style="color: #088178;" class="navelem" href="shop.html">Shop</a></li>
+                <li><a class="navelem" href="blog.html">Blog</a></li>
+                <li><a class="navelem" href="about.html">About</a></li>
+                <li><a class="navelem" href="contact.html">Contact</a></li>
+                <li><a class="navelem" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
             </ul>
+        </div>
+        <div id="mobile">
+            <li><a class="navelem" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            <li><a href="#"><i class="fas fa-outdent"></i></a></li>
         </div>
     </section>
 
@@ -34,24 +39,22 @@
         <div class="single-prod-img-details">
             <div class="small-img-group">
                 <div class="small-img-col">
-                    <img src="img/p (5).jpg" alt="prod1" class="smallImg">
+                    <img src="img/p (5).jpg" alt="prod1" class="smallimg">
                 </div>
                 <div class="small-img-col">
-                    <img src="img/p (6).jpg" alt="prod1" class="smallImg">
-                </div>
-                <div class="small-img-col">
-                    <img src="img/p (7).jpg" alt="prod1" class="smallImg">
+                    <img src="img/p (6).jpg" alt="prod1" class="smallimg">
                 </div>
             </div>
             <div class="single-pro-img">
-                <img src="img/p1.jpg" alt="prod1" id="mainImg">
+                <img src="img/p1.jpg" alt="prod1" id="mainimg">
             </div>
         </div>    
         <div class="single-prod-desc">
             <h1>Leopord print Women's Lower</h1>
             <h3>Women's fashion Lowers</h3>
-            <h2>Rs 290</h2>
-            <select>
+            <s>Rs 799</s>
+            <h1>Rs 290</h1>
+            <select class="filterSelect">
                 <option value="Select Size">Select Size</option>
                 <option value="S">S</option>
                 <option value="M">M</option>
@@ -61,9 +64,41 @@
                 <option value="XXXL">XXXL</option>
             </select>
             <input type="number" value="1">
-            <button>Add to Cart</button>
+            <button class="normalBtn">Add to Cart</button>
             <h3>Product Details</h3>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aut saepe tempora voluptatum blanditiis nulla cupiditate, deserunt provident magnam dolores, amet, quo nemo eius at eos nobis sequi iure sed.</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aut saepe tempora voluptatum blanditiis nulla cupiditate, deserunt provident magnam dolores, amet, quo nemo eius at eos nobis sequi iure sed. <br>
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore distinctio facere <br>
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore distinctio facere <br>
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore distinctio facere <br>
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore distinctio facere 
+            </p>
+            <table class="prodTable">
+                <tr>
+                    <th>Care Instructions</th>
+                    <td>Machine Wash</td>
+                  </tr>
+                  <tr>
+                    <th>Material </th>
+                    <td>Super Soft Combed Cotton</td>
+                  </tr>
+                  <tr>
+                    <th>Design</th>
+                    <td>Elasticized waist</td>
+                  </tr>
+                  <tr>
+                    <th>Comfort</th>
+                    <td>Comfortable</td>
+                  </tr> 
+            </table>
+        </div>
+    </section>
+
+    <!-- NOT COMPLETED -->
+    <section class="product1">
+        <h1>Featured Products</h1>
+        <p>Summer Collections with New Designs</p>
+        <div class="pro-container" id="some-prods-display">
+
         </div>
     </section>
 
@@ -77,7 +112,7 @@
             <button class="normalBtn">Sign Up</button>
         </div>
     </section>
-
+    
     <footer>
         <div class="col-main">
             <div class="col">
@@ -116,7 +151,17 @@
         </div>
     </footer>
 
+    <script>
+        let mainimg = document.getElementById('mainimg')
+        let smallimg = document.getElementsByClassName('smallimg')
+
+        smallimg[0].onclick = ()=>{
+            mainimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = ()=>{
+            mainimg.src = smallimg[1].src;
+        }
+    </script>
     <script src="script.js"></script>
-    
 </body>
 </html>
