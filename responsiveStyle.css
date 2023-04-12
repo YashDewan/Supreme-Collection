@@ -156,6 +156,13 @@
         right: 32px;
     }
 
+    /* coming soon page */
+
+    #coming-soon img {
+        width: 350px;
+        height: 350px;
+    }
+
     /* single product page */
 
     #prod-details{
@@ -165,10 +172,6 @@
 
     #prod-details .single-prod-img-details .small-img-group img {
         width: 13vw;
-    }
-
-    #prod-details .single-prod-img-details{
-        /* width: 100px; */
     }
 
     #prod-details .single-prod-desc h1{
