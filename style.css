@@ -61,6 +61,16 @@ body{
     border-radius: 7px;
 }
 
+#coming-soon{
+    display: flex;
+}
+
+#coming-soon img{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
 /* Nav starts */
 
 .logoFont{
@@ -635,3 +645,4 @@ footer .col-main .col a:hover{
     padding: 12px;
     text-align: left;
 }
+
