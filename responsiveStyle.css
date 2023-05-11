@@ -39,6 +39,15 @@
     }
 }
 
+/* between tablet and large phones */
+
+@media only screen and (min-width: 431px) and (max-width: 800px){
+    .gmaps {
+        padding: 40px 21px;
+        width: 80%;
+    }
+}
+
 /* large mobiles */
 
 @media screen and (max-width: 430px) {
@@ -183,6 +192,11 @@
         font-size: 1.5rem;
     }
 
+    /* maps */
+
+    .gmaps{
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 200px) and (max-width: 399px) {
