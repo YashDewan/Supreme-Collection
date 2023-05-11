@@ -65,6 +65,14 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (47).jpg",
+        span: "Women's Capri",
+        h5: "Printed Women's Capri",
+        h4: "Rs 290/-",
+        prod: "womencapri",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (1).jpg",
         span: "Women's Lower",
         h5: "Leapord print Night Trouser",
@@ -78,6 +86,14 @@ const arrdict = [
         h5: "Black Check print Night Trouser",
         h4: "Rs 290/-",
         prod: "womenlower",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (45).jpg",
+        span: "Women's Capri",
+        h5: "Printed Women's Capri",
+        h4: "Rs 290/-",
+        prod: "womencapri",
         morePhotos: 1
     },
     {
@@ -129,6 +145,14 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (32).jpg",
+        span: "Women's Capri",
+        h5: "Printed Women's Capri",
+        h4: "Rs 290/-",
+        prod: "womencapri",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (6).jpg",
         span: "Women's Lower",
         h5: "Leopord print Night Trouser",
@@ -158,6 +182,14 @@ const arrdict = [
         h5: "Grey Men's Lower",
         h4: "Rs 290/-",
         prod: "menlower",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (33).jpg",
+        span: "Women's Capri",
+        h5: "Printed Women's Capri",
+        h4: "Rs 290/-",
+        prod: "womencapri",
         morePhotos: 1
     },
     {
@@ -193,6 +225,14 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (35).jpg",
+        span: "Women's Capri",
+        h5: "Printed Women's Capri",
+        h4: "Rs 290/-",
+        prod: "womencapri",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (27).jpg",
         span: "Kids's Wear",
         h5: "Blue Kids Cloth Set",
@@ -214,6 +254,14 @@ const arrdict = [
         h5: "Green Men's Lower",
         h4: "Rs 290/-",
         prod: "menlower",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (34).jpg",
+        span: "Women's Capri",
+        h5: "Printed Women's Capri",
+        h4: "Rs 290/-",
+        prod: "womencapri",
         morePhotos: 1
     },
 

@@ -175,14 +175,14 @@ body{
     animation: jump 0.7s 10;
   }
 
-#closetxtbtn{
+/* #closetxtbtn{
     position: absolute;
     top: 5px;
     right: 5px;
     padding: 5px;
     background-color: #ccc;
     border: none;
-}
+} */
 
 #btnTxtId{
     font-size: 1.2rem;

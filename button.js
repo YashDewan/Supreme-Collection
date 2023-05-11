@@ -45,6 +45,9 @@ btn.addEventListener('click', ()=>{
     btnTxtId.style.right = "80px";
     btnTxtId.style.padding = "10px";
     btnTxtId.style.zIndex = "999";
+    setTimeout(()=>{
+        document.getElementById("btnTxtId").style.display = "none";
+    }, 5000);
     writeText("Speak !")
     recognition.start();
 })
@@ -105,8 +108,15 @@ function speakThis(message) {
         const finalText = "Showing mens summer shorts";
         writeText(finalText);
         speech.text = finalText;
-    }
-    else if(message.includes('open a product') || message.includes('product') || message.includes('item') || message.includes('show me a product')){
+    }else if(message.includes('women capri') || message.includes('capri') || message.includes('capery') || message.includes('cabery') || message.includes("women's capri")){
+        const newArr = arrdict.filter((e)=>{
+            return ("menshort" == e.prod);
+        });
+        productDisplay(newArr);
+        const finalText = "Showing womens capris";
+        writeText(finalText);
+        speech.text = finalText;
+    }else if(message.includes('open a product') || message.includes('product') || message.includes('item') || message.includes('show me a product')){
         window.location.href = 'singleProduct.html';
         const finalText = "Opening a random product";
         writeText(finalText);
