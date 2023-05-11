@@ -23,12 +23,6 @@ function wishMe() {
     }
 }
 
-// window.addEventListener('load', ()=>{
-//     speak("Activating JARVIS");
-//     speak("Going online");
-//     wishMe();
-// })
-
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 
@@ -37,7 +31,6 @@ recognition.onresult = (event) => {
     const current = event.resultIndex;
     const transcript = event.results[current][0].transcript;
     console.log(transcript);
-    // content.textContent = transcript;
     speakThis(transcript.toLowerCase());
 }
 
@@ -47,17 +40,11 @@ function writeText(finaltxt){
 
 btn.addEventListener('click', ()=>{
     btnTxtId.style.display = 'block';
-    btnTxtId.style.width = "120px";
-    btnTxtId.style.height = "90px";
     btnTxtId.style.position = "fixed";
     btnTxtId.style.bottom = "65px";
     btnTxtId.style.right = "80px";
     btnTxtId.style.padding = "10px";
-    btnTxtId.style.backgroundColor = "grey"
     btnTxtId.style.zIndex = "999";
-    btnTxtId.style.borderRadius = "20px";
-    btnTxtId.style.opacity = "10";
-    btnTxtId.style.color = "white";
     writeText("Speak !")
     recognition.start();
 })
@@ -78,13 +65,74 @@ function speakThis(message) {
         const finalText = "My name is Jarvis";
         writeText(finalText);
         speech.text = finalText;
+    }else if(message.includes('filter T shirt') || message.includes('t-shirt') || message.includes("tshirt") || message.includes('show some T shirt')){
+        const newArr = arrdict.filter((e)=>{
+            return ("tshirt" == e.prod);
+        });
+        productDisplay(newArr);
+        const finalText = "Showing T shirts";
+        writeText(finalText);
+        speech.text = finalText;
+    }else if(message.includes('filter kids wear') || message.includes('kids') || message.includes("kids wear") || message.includes('show kids wear')){
+        const newArr = arrdict.filter((e)=>{
+            return ("kidswear" == e.prod);
+        });
+        productDisplay(newArr);
+        const finalText = "Showing Kids Wear";
+        writeText(finalText);
+        speech.text = finalText;
+    }else if(message.includes('filter women lower') || message.includes("women's lower") || message.includes("ladies lowers") || message.includes('show womens lower')){
+        const newArr = arrdict.filter((e)=>{
+            return ("womenlower" == e.prod);
+        });
+        productDisplay(newArr);
+        const finalText = "Showing women lowers";
+        writeText(finalText);
+        speech.text = finalText;
+    }else if(message.includes('filter men lower') || message.includes("men's lower") || message.includes("men lower") || message.includes("gents lowers") || message.includes('show men lower')){
+        const newArr = arrdict.filter((e)=>{
+            return ("menlower" == e.prod);
+        });
+        productDisplay(newArr);
+        const finalText = "Showing mens lowers";
+        writeText(finalText);
+        speech.text = finalText;
+    }else if(message.includes('filter mens shorts') || message.includes('shorts') || message.includes("men's shorts") || message.includes('show mens shorts')){
+        const newArr = arrdict.filter((e)=>{
+            return ("menshort" == e.prod);
+        });
+        productDisplay(newArr);
+        const finalText = "Showing mens summer shorts";
+        writeText(finalText);
+        speech.text = finalText;
+    }
+    else if(message.includes('open a product') || message.includes('product') || message.includes('item') || message.includes('show me a product')){
+        window.location.href = 'singleProduct.html';
+        const finalText = "Opening a random product";
+        writeText(finalText);
+        speech.text = finalText;
+    }else if(message.includes('shop') || message.includes('open shop section')){
+        window.location.href = 'shop.html';
+        const finalText = "Opening shop section";
+        writeText(finalText);
+        speech.text = finalText;
+    }else if(message.includes('contact us') || message.includes('open contact section')){
+        window.location.href = 'contact.html';
+        const finalText = "Opening contact us section";
+        writeText(finalText);
+        speech.text = finalText;
+    }else if(message.includes('home') || message.includes('open home section')){
+        window.location.href = 'index.html';
+        const finalText = "Opening home section";
+        writeText(finalText);
+        speech.text = finalText;
     }else if(message.includes('open google')) {
         window.open("https://google.com", "_blank");
         const finalText = "Opening Google";
         writeText(finalText);
         speech.text = finalText;
     }else if(message.includes('open instagram')) {
-        window.open("https://instagram.com", "_blank");
+        window.open("https://www.instagram.com/supremecollection_yv/", "_blank");
         const finalText = "Opening instagram";
         writeText(finalText);
         speech.text = finalText;
@@ -113,12 +161,13 @@ function speakThis(message) {
         const finalText = "Opening Calculator";
         writeText(finalText);
         speech.text = finalText;
-    }else {
-        window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
-        const finalText = "I found some information for " + message + " on google";
-        writeText(finalText);
-        speech.text = finalText;
     }
+    // else {
+    //     window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
+    //     const finalText = "I found some information for " + message + " on google";
+    //     writeText(finalText);
+    //     speech.text = finalText;
+    // }
 
     speech.volume = 1;
     speech.pitch = 1;

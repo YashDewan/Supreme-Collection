@@ -248,8 +248,7 @@ productDisplay(arrdict);
 // filter : 
 let filterval = document.getElementById('filterShopid');
 
-filterval.addEventListener('click' , ()=>{
-    console.log(filterval.value);
+function filterfunction(){
     if(filterval.value == "all"){
         productDisplay(arrdict);
     }else{
@@ -258,6 +257,10 @@ filterval.addEventListener('click' , ()=>{
         });
         productDisplay(newArr);
     }
+}
+
+filterval.addEventListener('click' , ()=>{
+    filterfunction();
 });
 
 // click on wishlist btn :
