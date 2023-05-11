@@ -1,0 +1,34 @@
+
+{
+    "manifest_version": 3,
+    "name": "Virtual Assistant",
+    "version": "1.0",
+    "description": "A virtual assistant that can perform various tasks.",
+    "browser_action":{
+        "default_popup":"index.html",
+        "default_icon":"vir.png"
+    },
+    "icons": {
+      "128": "vir.png"
+    },
+    
+
+    "permissions": [
+        "speechRecognition",
+        "tabs",
+        "activeTab",
+        "http://*/*",
+        "https://*/*",
+        "notifications",
+        "contextMenus",
+        "storage"
+      ],
+      "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+      "web_accessible_resources": [
+        {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["content.js"]
+        }
+      ]
+  }
+  

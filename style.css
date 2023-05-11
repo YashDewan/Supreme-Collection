@@ -155,6 +155,50 @@ body{
     margin: 14px 80px 14px 65px;
 }
 
+/* Sticky button */
+
+#stickyButton button{
+    background-color: #21e2e2;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    z-index: 99;
+    padding: 15px;
+    color: #fff;
+    font-size: 1.4rem;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    animation: jump 0.7s 10;
+  }
+
+#stickyButton .btnTxt{
+    display: none;
+    background-color: #E3E6f3;
+    width: 120px;
+    height: 90px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    padding: 10px;
+}
+  
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 /* Feature starts */
 
 #features{
@@ -251,6 +295,21 @@ body{
     background-color: #4abbb3;
     color: #cce7d0;
     padding: 10px;
+}
+
+/* Wishlist button in prods */
+
+.product1 .pro .wishlistBtn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 1.35rem;
+    color: #fff;
+    z-index: 100;
+}
+
+.wishlistBtn:hover{
+    font-weight: 600;
 }
 
 /* banner starts */

@@ -57,6 +57,14 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (41).jpg",
+        span: "Men's Shorts",
+        h5: "Printed Men's Shorts",
+        h4: "Rs 330/-",
+        prod: "menshort",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (1).jpg",
         span: "Women's Lower",
         h5: "Leapord print Night Trouser",
@@ -102,6 +110,14 @@ const arrdict = [
         h5: "Black Men's Lower",
         h4: "Rs 290/-",
         prod: "menlower",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (42).jpg",
+        span: "Men's Shorts",
+        h5: "Printed Men's Shorts",
+        h4: "Rs 270/-",
+        prod: "menshort",
         morePhotos: 1
     },
     {
@@ -209,6 +225,7 @@ let productDisplay = (prodsarr) => {
     for (let i = 0; i < n; i++) {
         html += `<div id="prod${i+1}" class="pro ${prodsarr[i].prod}" onclick="window.location.href='singleProduct.html';">
             <img src="${prodsarr[i].imgsrc}" alt="Product Image">
+            <i class="far fa-heart wishlistBtn""></i>
             <div class="des">
                 <span>${prodsarr[i].span}</span>
                 <h5>${prodsarr[i].h5}</h5>
@@ -243,6 +260,7 @@ filterval.addEventListener('click' , ()=>{
     }
 });
 
-// small image showing :
+// click on wishlist btn :
+
 
 
