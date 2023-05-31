@@ -41,11 +41,27 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (44).jpg",
+        span: "T-Shirt",
+        h5: "Printed Men's TShirt",
+        h4: "Rs 290/-",
+        prod: "tshirt",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (10).jpg",
         span: "T-Shirt",
         h5: "Peach Cotton TShirt",
         h4: "Rs 160/-",
         prod: "tshirt",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (49).jpg",
+        span: "Women's Top",
+        h5: "Women's Top",
+        h4: "Rs 310/-",
+        prod: "womentop",
         morePhotos: 1
     },
     {
@@ -57,6 +73,22 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (51).jpg",
+        span: "Women's Dresses",
+        h5: "Women's Dress",
+        h4: "Rs 310/-",
+        prod: "womendress",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (45).jpg",
+        span: "T-Shirt",
+        h5: "Printed Men's TShirt",
+        h4: "Rs 290/-",
+        prod: "tshirt",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (41).jpg",
         span: "Men's Shorts",
         h5: "Printed Men's Shorts",
@@ -65,11 +97,27 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (52).jpg",
+        span: "Women's Dresses",
+        h5: "Women's Dress",
+        h4: "Rs 310/-",
+        prod: "womendress",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (47).jpg",
         span: "Women's Capri",
         h5: "Printed Women's Capri",
         h4: "Rs 290/-",
         prod: "womencapri",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (50).jpg",
+        span: "Women's Top",
+        h5: "Women's Top",
+        h4: "Rs 310/-",
+        prod: "womentop",
         morePhotos: 1
     },
     {
@@ -105,6 +153,14 @@ const arrdict = [
         morePhotos: 1
     },
     {
+        imgsrc: "img/p (46).jpg",
+        span: "T-Shirt",
+        h5: "Printed Men's TShirt",
+        h4: "Rs 290/-",
+        prod: "tshirt",
+        morePhotos: 1
+    },
+    {
         imgsrc: "img/p (12).jpg",
         span: "T-Shirt",
         h5: "Mehroon Cotton TShirt",
@@ -134,6 +190,14 @@ const arrdict = [
         h5: "Printed Men's Shorts",
         h4: "Rs 270/-",
         prod: "menshort",
+        morePhotos: 1
+    },
+    {
+        imgsrc: "img/p (48).jpg",
+        span: "Women's Top",
+        h5: "Women's Top",
+        h4: "Rs 310/-",
+        prod: "womentop",
         morePhotos: 1
     },
     {

@@ -116,6 +116,22 @@ function speakThis(message) {
         const finalText = "Showing womens capris";
         writeText(finalText);
         speech.text = finalText;
+    }else if(message.includes('women dress') || message.includes('dress') || message.includes('dresses') || message.includes("women's dress")){
+        const newArr = arrdict.filter((e)=>{
+            return ("womendress" == e.prod);
+        });
+        productDisplay(newArr);
+        const finalText = "Showing womens dresses";
+        writeText(finalText);
+        speech.text = finalText;
+    }else if(message.includes('women top') || message.includes('top') || message.includes('tops') || message.includes("women's tops")){
+        const newArr = arrdict.filter((e)=>{
+            return ("womentop" == e.prod);
+        });
+        productDisplay(newArr);
+        const finalText = "Showing womens dresses";
+        writeText(finalText);
+        speech.text = finalText;
     }else if(message.includes('open a product') || message.includes('product') || message.includes('item') || message.includes('show me a product')){
         window.location.href = 'singleProduct.html';
         const finalText = "Opening a random product";
